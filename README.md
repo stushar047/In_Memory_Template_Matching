@@ -4,7 +4,7 @@
 
 This project presents an **in-memory template matching** framework using an **approximated Pearson Correlation Coefficient (PCC)** computation implemented for **memristive systems**. The goal is to perform efficient template matching while reducing computational overhead, making the approach suitable for **resource-constrained and edge-oriented hardware platforms**.
 
-<img src="block_diag.pdf" alt="Alt text" style="height: 200; width: auto;">
+<img src="block_diag.jpg" alt="Alt text" style="height: 200; width: auto;">
 
 The workflow begins with an input image and a template image. These are processed through an approximated PCC-based matching pipeline, where similarity is computed efficiently using an in-memory architecture. The final goal is to identify the matching region while preserving accuracy and improving hardware efficiency.
 
